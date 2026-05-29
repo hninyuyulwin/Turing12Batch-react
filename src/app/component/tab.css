@@ -1,0 +1,21 @@
+.tab-header {
+  min-width: 150px;
+  border-bottom: 1px solid gray;
+  display: inline-block;
+  margin-right: 5px;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+
+.tab-content {
+  min-width: 200px;
+  min-height: 250px;
+  border: 1px solid grey;
+}
+
+.active {
+  color: green;
+  font-weight: bold;
+  cursor: pointer;
+}
