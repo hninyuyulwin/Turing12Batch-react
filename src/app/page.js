@@ -35,6 +35,20 @@ import EffectDemo from "./component/effect/EffectDemo";
 import EffectLifeCycle from "./component/effect/EffectLifeCycle";
 import CleanUpDemo from "./component/effect/CleanUpDemo";
 import TodoWithDataFetch from "./component/effect/TodoWithDataFetch";
+import LoadTodo from "./component/hooks/LoadTodo";
+import LoadUser from "./component/hooks/LoadUser";
+import LoadDataWithHook from "./component/hooks/LoadDataWithHook";
+import FormWithHook from "./component/hooks/FormWithHook";
+import SimpleLoginForm from "./component/form/SimpleLoginForm";
+import MovieForm from "./component/form/MovieForm";
+import WhyRenderProp from "./component/desing_pattern/render_property/WhyRenderProp";
+import RenderPropDemo from "./component/desing_pattern/render_property/RenderPropDemo";
+import WhyHoc from "./component/desing_pattern/hoc/WhyHoc";
+import HocWithLoggerDemo from "./component/desing_pattern/hoc/HocWithLoggerDemo";
+import WhyHocAuth from "./component/desing_pattern/hoc/WhyHocAuth";
+import AuthDemo from "./component/desing_pattern/hoc/AuthDemo";
+import ProtectedDemo from "./component/compound/ProtectedDemo";
+import RouterDemo from "./component/router/RouterDemo";
 
 export default function Home() {
   return (
@@ -116,7 +130,21 @@ export default function Home() {
         {/* <EffectLifeCycle /> */}
         {/* <TimerDemo /> */}
         {/* <CleanUpDemo /> */}
-        <TodoWithDataFetch />
+        {/* <TodoWithDataFetch /> */}
+        {/* <LoadTodo /> */}
+        {/* <LoadUser /> */}
+        {/* <LoadDataWithHook /> */}
+        {/* <FormWithHook /> */}
+        {/* <SimpleLoginForm /> */}
+        {/* <MovieForm /> */}
+        {/* <WhyRenderProp /> */}
+        {/* <RenderPropDemo /> */}
+        {/* <WhyHoc /> */}
+        {/* <HocWithLoggerDemo /> */}
+        {/* <WhyHocAuth /> */}
+        {/* <AuthDemo /> */}
+        {/* <ProtectedDemo /> */}
+        <RouterDemo />
       </main>
     </div>
   );
