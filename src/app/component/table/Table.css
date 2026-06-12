@@ -1,0 +1,20 @@
+.cus-table {
+  min-width: 650px;
+  border-collapse: collapse;
+  border: 1px solid white;
+  margin: 10px;
+  border-radius: 50px;
+}
+
+.cus-table th {
+  text-align: left;
+  padding: 10px;
+}
+.cus-table tr {
+  border-bottom: 1px solid white;
+  padding: 10px;
+}
+
+.cus-table tr td {
+  padding: 10px;
+}

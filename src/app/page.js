@@ -49,6 +49,11 @@ import WhyHocAuth from "./component/desing_pattern/hoc/WhyHocAuth";
 import AuthDemo from "./component/desing_pattern/hoc/AuthDemo";
 import ProtectedDemo from "./component/compound/ProtectedDemo";
 import RouterDemo from "./component/router/RouterDemo";
+import WhyUseCallback from "./component/hooks/WhyUseCallback";
+import MemoDemo from "./component/hooks/MemoDemo";
+import PortalDemo from "./component/PortalDemo";
+import TableDemo from "./component/table/TableDemo";
+import DatagridDemo from "./component/table/DatagridDemo";
 
 export default function Home() {
   return (
@@ -144,7 +149,12 @@ export default function Home() {
         {/* <WhyHocAuth /> */}
         {/* <AuthDemo /> */}
         {/* <ProtectedDemo /> */}
-        <RouterDemo />
+        {/* <RouterDemo /> */}
+        {/* <WhyUseCallback /> */}
+        {/* <MemoDemo /> */}
+        {/* <PortalDemo /> */}
+        <TableDemo />
+        <DatagridDemo />
       </main>
     </div>
   );
